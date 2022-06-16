@@ -1,0 +1,15 @@
+[package]
+name = "amser-client"
+version = "0.0.1"
+authors = ["Junha Yang <junhayang1@gmail.com>"]
+edition = '2021'
+include = ["src/**/*", "Cargo.toml"]
+license = "MIT"
+readme = "../README.md"
+repository = "https://github.com/junha1/amser"
+description = """
+A client for the Awesome Music Server
+"""
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
